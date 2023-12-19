@@ -59,13 +59,6 @@ export default ({ children, title = "2ALL" }: LayoutType) => {
 												<li className="d-lg-none">
 													<a href="#" className="callnumber"><span><i className="fa fa-phone mr-1"></i>: +425 345 8765</span></a>
 												</li>
-												<li className="select-country">
-													<select className="form-control select2-flag-search" data-placeholder="Select Country">
-														<option value="VE">Venezuela</option>
-														<option value="VN">Vietnam</option>
-														
-													</select>
-												</li>
 												<li className="dropdown d-none d-xl-inline-block">
 													<a href="#" className="" data-toggle="dropdown"><span> Language <i className="fa fa-caret-down"></i></span> </a>
 													<div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
